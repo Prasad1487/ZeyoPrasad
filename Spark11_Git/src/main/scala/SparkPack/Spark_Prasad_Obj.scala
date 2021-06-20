@@ -34,7 +34,7 @@ def main(args:Array[String]):Unit={
 					RawDF.printSchema()
 					
 					println()
-					println("============First Explode  DF============")
+					println("============Explode  DF============")
 					println()	
 					
 					val ExpDF1 = RawDF.withColumn("results", explode(col("results")))
